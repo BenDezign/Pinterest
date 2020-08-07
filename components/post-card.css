@@ -1,0 +1,58 @@
+.wrapper {
+  border: 4px solid #333;
+
+}
+
+.wrapper div {
+
+}
+
+
+.legend {
+    background: rgb(219, 219, 219);
+    display: inline-block;
+    margin: 0;
+    width: 272px;
+    padding: 10px;
+}
+
+.legend h1 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+img.border-bottom {
+    width: auto;
+    max-width: 292px;
+}
+.tags p {
+  text-align: left;
+}
+.tags a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.wrapper .like {
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+  text-align: left;
+
+}
+
+.wrapper .like img {
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.wrapper .like span {
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}

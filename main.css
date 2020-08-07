@@ -1,0 +1,68 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    margin: 0;
+    font-family: 'Caveat', sans-serif;
+
+}
+
+header {
+    background: #FFF;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 55px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.logo, .like, .search {
+    float: left;
+    margin-right: 50px;
+}
+
+header .like {
+    background: #333;
+    color: #FFF;
+    padding: 5px 10px 0 10px;
+}
+header .like span {
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.logo {
+}
+
+.search {
+    width: 300px;
+}
+
+.search input {
+    border: 1px solid rgb(219, 219, 219);
+    height: 30px;
+    line-height: 30px;
+}
+
+.logo img {
+    max-height: 30px;
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+post-card {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 430px;
+    overflow: hidden;
+}
+
